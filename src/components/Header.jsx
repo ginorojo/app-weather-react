@@ -67,7 +67,7 @@ export default function Header({
             </button>
             <div className="flex justify-around items-center pt-6  ">
               <div className="flex justify-center items-center border-2 border-gray-400 w-50 gap-0.5 pl-4  ">
-                <img className="w-5 " src="/public/search.svg" alt="" />
+                <img className="w-5 " src="search.svg" alt="" />
                 <input
                   className="border-none focus:outline-none  h-10 placeholder: text-white"
                   type="text"
@@ -140,7 +140,7 @@ export default function Header({
             </p>
           </div>
           <div className=" text-[#88869D] text-sm flex justify-center items-center gap-2 mb-6">
-            <img className="w-5" src="/public/location_on.svg" alt="" />
+            <img className="w-5" src="location_on.svg" alt="" />
             <p>{selectedCity}</p>
           </div>
         </div>
