@@ -60,14 +60,14 @@ export default function Header({
             <button>
               <img
                 className="absolute top-3 right-5 w-7 cursor-pointer hover:w-8"
-                src="/public/close.svg"
+                src="/close.svg"
                 alt="Close"
                 onClick={() => setShowModal(false)}
               />
             </button>
             <div className="flex justify-around items-center pt-6  ">
               <div className="flex justify-center items-center border-2 border-gray-400 w-50 gap-0.5 pl-4  ">
-                <img className="w-5 " src="search.svg" alt="" />
+                <img className="w-5 " src="/search.svg" alt="" />
                 <input
                   className="border-none focus:outline-none  h-10 placeholder: text-white"
                   type="text"
@@ -106,7 +106,7 @@ export default function Header({
         <div className="md:w-[400px] bg-[#1e213a] w-full h-[250px] relative flex flex-col justify-center items-center ">
           <img
             className="md:w-[400px] bg-[#1e213a] w-full h-[250px] opacity-10 "
-            src="/public/others/Cloud-background.png"
+            src="/others/Cloud-background.png"
             alt=""
           />
           <div className=" flex  justify-center absolute items-center w-2/5 ">

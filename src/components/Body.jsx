@@ -154,7 +154,7 @@ export default function Body({ selectedCity }) {
             <div className="flex items-center gap-2 text-white pt-3  ">
               {weatherData?.wind?.deg !== undefined ? (
                 <img
-                  src="/public/navigation.svg"
+                  src="/navigation.svg"
                   alt="wind direction"
                   style={{ transform: `rotate(${weatherData.wind.deg}deg)` }}
                   className=" bg-gray-600  rounded-full w-9 p-2"
