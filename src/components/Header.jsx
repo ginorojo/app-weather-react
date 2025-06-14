@@ -50,7 +50,7 @@ export default function Header({
           >
             <img
               className="relative w-7 bg-[#6e707a] rounded-full "
-              src="/public/location.svg"
+              src="/location.svg"
               alt=""
             />
           </button>
@@ -140,7 +140,7 @@ export default function Header({
             </p>
           </div>
           <div className=" text-[#88869D] text-sm flex justify-center items-center gap-2 mb-6">
-            <img className="w-5" src="location_on.svg" alt="" />
+            <img className="w-5" src="/location_on.svg" alt="" />
             <p>{selectedCity}</p>
           </div>
         </div>
